@@ -1,11 +1,5 @@
 # Sogamo API on iOS #
-To integrate th Sogamo Analytics API with your iPhone / iPad application, first download the latest [zip archive](http://sogamo.com/) and extract the files. 
-
-The repository contains two folders:
-
-1. SogamoAPI.framework - The Sogamo iOS Framework
-2. HelloSogamo - A sample application that demonstrates how to use the SogamoAPI.
-3. Docs - API Reference
+To integrate the Sogamo API with your iPhone / iPad application, first download the latest [zip archive](http://sogamo.com/) and extract the files. 
 
 # Requirements #
 
@@ -17,37 +11,20 @@ Adding the Sogamo to your Xcode project is just a few easy steps:
 
 1. Add the SogamoAPi Framework
 
-	a. Drag and drop the **SogamoLib** folder (located at **Sogamo SDK Project/Sogamo SDK/SogamoLib**) into your project. 
+	a. Drag and drop the **SogamoLib** folder (located at **Sogamo SDK Project/SogamoV3SDK/SogamoV3SDK/SogamoLib**) into your project. 
 	
 	![Folder Structure][Folder Structure]
 	
 	b. Check the "Copy items into destination's group's folder" and select 'Create groups for any added folders'
 ![Copy][Copy into Xcode]
 
-2. Add the SystemConfiguration Framework.
-
-	a. In the Project navigator, select your project
-
-	b. Select your target
-	
-	c. Select the 'Build Phases' tab
-	
-	d. Open 'Link Binaries with Libraries' expander
-	
-	e. Click the '+' button
-	
-	f. Select the **SystemConfiguration.framework** from the list (Or use the search field)
-	
-	g. (optional) Drag and drop the added framework to the 'Frameworks' group
-	
-![Add SystemConfiguration Framework][Add SystemConfiguration]
-3. Add `#import "SogamoAPI.h"` to all classes that call SogamoAPI functions
+2. Add `#import "Sogamo.h"` to all classes that call SogamoAPI functions
 		
-And that's it. 
+Now you're ready to start using Sogamo! 
 
 # Usage #
-## Initialization ##
-The first thing you need to do is to initialize a SogamoAPI session with your project API key. We recommend doing this in `applicationDidFinishLaunching:` or
+## Start a Session ##
+The first thing you need to do is to initialize a Sogamo session with your project API key. We recommend doing this in `applicationDidFinishLaunching:` or
 `application:didFinishLaunchingWithOptions` in your Application delegate, with the following method:
 
 	[[SogamoAPI sharedAPI] startSessionWithAPIKey:YOUR_PROJECT_KEY 
