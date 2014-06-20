@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>79837D71-EDD3-4AD3-98AB-3C0DA42CD86B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SogamoV30Sample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E7F4234B-F6FC-4565-B4B7-F20C229A5FCB</key>
+		<string>https://github.com/zelrealm/sogamo-v3-ios-library.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sample Project/SogamoV30Sample/SogamoV30Sample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E7F4234B-F6FC-4565-B4B7-F20C229A5FCB</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zelrealm/sogamo-v3-ios-library.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E7F4234B-F6FC-4565-B4B7-F20C229A5FCB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E7F4234B-F6FC-4565-B4B7-F20C229A5FCB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>sogamo-v30-ios-library</string>
+		</dict>
+	</array>
+</dict>
+</plist>
