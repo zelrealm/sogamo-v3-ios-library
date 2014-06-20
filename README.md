@@ -1,5 +1,5 @@
 # Sogamo API on iOS #
-To integrate the Sogamo API with your iPhone / iPad application, first download the latest [zip archive](http://sogamo.com/) and extract the files. 
+To integrate the Sogamo API with your iPhone / iPad application, first download the latest zip archive from this repository and extract the files. 
 
 # Requirements #
 
